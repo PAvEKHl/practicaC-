@@ -1,0 +1,23 @@
+﻿<Window x:Class="Module3.Task4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task4" Height="400" Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <Grid Margin="0,0,0,10">
+                <TextBox x:Name="KeywordTextBox" Width="200" Height="25" Margin="147,0,33,0"/>
+                <TextBlock Text="Введите ключевое слово" Foreground="Gray" VerticalAlignment="Top" Margin="5,0,233,0"/>
+            </Grid>
+            <Button x:Name="KeywordFilterButton" Content="Фильтровать по ключевым словам"
+                    Width="203" Height="30" Click="KeywordFilterButton_Click"/>
+            <Grid Margin="0,10,0,10">
+                <TextBox x:Name="DateTextBox" Width="200" Height="25" Margin="153,0,27,0"/>
+                <TextBlock Text="Введите дату (yyyy-MM-dd)" Foreground="Gray" VerticalAlignment="Top" Margin="0,-1,5,0"/>
+            </Grid>
+            <Button x:Name="DateFilterButton" Content="Фильтровать по дате"
+                    Width="180" Height="30" Click="DateFilterButton_Click"/>
+            <TextBlock Text="Результаты:" FontWeight="Bold" Margin="0,20,0,10"/>
+            <ListBox x:Name="DataListBox" Height="150"/>
+        </StackPanel>
+    </Grid>
+</Window>

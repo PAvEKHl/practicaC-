@@ -1,0 +1,10 @@
+﻿<Application x:Class="Module3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1"
+             StartupUri="Task4.xaml">
+    <!-- Main из  свойства StartupUri забирает файл, который нужно вывести на экран  -->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

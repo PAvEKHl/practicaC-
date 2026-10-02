@@ -1,0 +1,13 @@
+﻿<Window x:Class="Module5.Task1" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Title="Задачи" Height="300" Width="300">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
+            <RadioButton Name="rbLine" Content="Линия" IsChecked="True" Margin="5"/>
+            <RadioButton Name="rbCircle" Content="Круг" Margin="5"/>
+            <RadioButton Name="rbRect" Content="Квадрат" Margin="5"/>
+        </StackPanel>
+        <Canvas Name="canvas" Background="White" MouseLeftButtonDown="Down" MouseMove="Move" MouseLeftButtonUp="Up"/>
+    </DockPanel>
+</Window>

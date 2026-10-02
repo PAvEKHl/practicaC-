@@ -1,0 +1,12 @@
+﻿<Window x:Class="Module5.Task2" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Title="Редактор" Height="300" Width="400">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Открыть" Click="Open_Click"/>
+            <MenuItem Header="Сохранить" Click="Save_Click"/>
+        </Menu>
+        <TextBox Name="txt" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+    </DockPanel>
+</Window>
